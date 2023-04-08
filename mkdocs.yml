@@ -1,0 +1,18 @@
+site_name: ToMe
+
+theme:
+  features:
+    - content.code.copy
+  name: material
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
+
+nav:
+  - Home: index.md
+  - Command:
+      - Speed Test: command/speed_test.md
+  - Container:
+      - Python Dockerfile: container/dockerfile_python.md
