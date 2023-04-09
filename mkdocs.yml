@@ -8,11 +8,13 @@ theme:
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
-      alternate_style: true 
+      alternate_style: true
 
 nav:
   - Home: index.md
   - Command:
       - Speed Test: command/speed_test.md
+      - Pbcopy & Pbpaste: command/pbcopy.md
   - Container:
       - Python Dockerfile: container/dockerfile_python.md
+      - Build the image & Run Container: container/run_dockerfile_localy.md
