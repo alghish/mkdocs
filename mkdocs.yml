@@ -18,3 +18,5 @@ nav:
   - Container:
       - Python Dockerfile: container/dockerfile_python.md
       - Build the image & Run Container: container/run_dockerfile_localy.md
+  - Powershell:
+      - Auto Generate: powershell/auto_generate.md

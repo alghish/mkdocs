@@ -12,20 +12,20 @@ On Debian, Ubuntu, Linux Mint:
 
 ## Steps Install
 
-1- Installed, you need create aliases for pbcopy and pbpaste commands. To do so, edit your ~/.bashrc file:
+### 1- Installed, you need create aliases for pbcopy and pbpaste commands. To do so, edit your ~/.bashrc file:
 
 ```bash
   vim ~/.bashrc
 ```
 
-2- Add alias
+### 2- Add alias
 
 ```bash
  alias pbcopy='xclip -selection clipboard'
  alias pbpaste='xclip -selection clipboard -o'
 ```
 
-3- update the changes in ~/.bashrc file.
+### 3- update the changes in ~/.bashrc file.
 
 ```bash
   source ~/.bashrc

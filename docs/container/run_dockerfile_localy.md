@@ -2,19 +2,19 @@
 
 ## Steps
 
-1- Build the image:
+### 1- Build the image:
 
 ```bash
   docker build --tag mysite-img .
 ```
 
-2- View local images:
+### 2- View local images:
 
 ```bash
  docker image ls
 ```
 
-3- Tag images:
+### 3- Tag images:
 
 **Optional**
 
@@ -22,25 +22,25 @@
   docker image tag mysite-img:latest mysite-img:v1.0
 ```
 
-4- Run your image as a container:
+### 4- Run your image as a container:
 
 ```bash
   docker run mysite-img
 ```
 
-5- Run in detached mode with publish port, add name to container
+### 5- Run in detached mode with publish port, add name to container
 
 ```bash
   docker run -d -p 8080:8080 --name mysite-cotr mysite-img
 ```
 
-6- View all containers with details
+### 6- View all containers with details
 
 ```bash
   docker ps -a
 ```
 
-7- Stop running container
+### 7- Stop running container
 
 ```bash
   docker stop mysite-cotr
